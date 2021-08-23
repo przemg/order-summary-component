@@ -1,1 +1,4 @@
 node_modules
+
+# Ignore css files which are creating at build proccess
+public/css
