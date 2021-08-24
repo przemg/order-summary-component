@@ -42,7 +42,9 @@ In this solution, I wanted to learn Tailwind CSS in practice. I need to customiz
 
 ```js
 module.exports = {
-  purge: [],
+  purge: [
+    './public/**/*.html'
+  ],
   darkMode: false,
   theme: {
     extend: {
