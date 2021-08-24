@@ -9,21 +9,23 @@
 
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <article>
+<body class="flex justify-center items-center min-h-screen text-neutral-200 font-body font-regular bg-bgMobile sm:bg-bgDesktop bg-contain bg-left-top bg-no-repeat bg-primary-100">
+  <article0 class="flex flex-col border border-primary-100 max-w-md text-center rounded-2xl overflow-hidden shadow-xl bg-white">
     <img src="assets/images/illustration-hero.svg" alt="" role="presentation" />
-    <h1>Order summary</h1>
-    <p>You can now listen to milions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-    <div>
-      <img src="assets/images/icon-music.svg" alt="" role="presentation" />
-      <div>
-        <h2>Annual plan</h2>
-        <p>$59.99/year</p>
+    <div class="flex flex-col p-10 pb-8">
+      <h1 class="mb-6 font-black text-neutral-300 text-3xl">Order summary</h1>
+      <p class="w-5/6 mx-auto">You can now listen to milions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      <div class="flex items-center p-6 mt-5 mb-8 bg-neutral-100 rounded-lg">
+        <img src="assets/images/icon-music.svg" alt="" role="presentation" />
+        <div class="ml-4 mr-auto">
+          <h2 class="text-neutral-300 font-black mb-1">Annual plan</h2>
+          <p>$59.99/year</p>
+        </div>
+        <button class="text-primary-200 text-sm font-bold underline hover:no-underline hover:opacity-60 transition ease-in duration-300" type="button">Change</button>
       </div>
-      <button>Change</button>
+      <button class="button mb-4 shadow-blue bg-primary-200 text-white hover:opacity-70" type="button">Proceed to Payment</button>
+      <button class="button hover:text-neutral-300" type="button">Cancel order</button>
     </div>
-    <button type="button">Proceed to Payment</button>
-    <button type="button">Cancel order</button>
-  </article>
+  </article0
 </body>
 </html>
