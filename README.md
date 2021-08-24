@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](.solution_screens/screenshot.jpg)
+![Solution preview for Frontend Mentor - Order summary card solution](./solution_screens/solution.jpg)
 
 ### Links
 
